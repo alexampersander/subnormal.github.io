@@ -19,28 +19,28 @@ function type() {
 	while(namelength2 < namelength) {
 		switch (namelength2) {
 			case 1:
-				setTimeout(function(){$('#name').append("u");},1500);
+				setTimeout(function(){$('#name').append("u");},2000);
 				break;
 			case 2:
-				setTimeout(function(){$('#name').append("b");},1575);
+				setTimeout(function(){$('#name').append("b");},2075);
 				break;
 			case 3:
-				setTimeout(function(){$('#name').append("n");},1650);
+				setTimeout(function(){$('#name').append("n");},2150);
 				break;
 			case 4:
-				setTimeout(function(){$('#name').append("o");},1725);
+				setTimeout(function(){$('#name').append("o");},2225);
 				break;
 			case 5:
-				setTimeout(function(){$('#name').append("r");},1800);
+				setTimeout(function(){$('#name').append("r");},2300);
 				break;
 			case 6:
-				setTimeout(function(){$('#name').append("m");},1875);
+				setTimeout(function(){$('#name').append("m");},2375);
 				break;
 			case 7:
-				setTimeout(function(){$('#name').append("a");},1950);
+				setTimeout(function(){$('#name').append("a");},2450);
 				break;
 			case 8:
-				setTimeout(function(){$('#name').append("l");},2025);
+				setTimeout(function(){$('#name').append("l");},2525);
 				break;
 		}
 		namelength2++;
