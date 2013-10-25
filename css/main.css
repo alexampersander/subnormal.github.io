@@ -1,0 +1,21 @@
+* {
+	font-family: 'Roboto Slab', serif;
+}
+::selection {
+    background-color: #48E698;
+}
+::-moz-selection {
+    background-color: #48E698;
+}
+body div {
+	position: relative;
+	background-color: #00B4FF;
+	display: block;
+	height: 200px;
+	color: white;
+	font-size: 3em;
+	font-weight: 700;
+}
+body div div p {
+	margin-top: 33px;
+}
