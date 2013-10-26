@@ -12,13 +12,29 @@
     </head>
 
     <body>
-        <div>
-            <div class="container">
-                <p class="text-center"><span id="name">s</span><span id="cursor">_</span></p>
+        <div id="back"></div>
+        <div id="b">
+            <div id="dad" class="container">
+                <p><span id="name">s</span><span id="cursor">_</span></p>
             </div>
         </div>
         <!-- Initialize Scripts -->
         <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script>
+            var x = window.innerWidth,
+                y = window.innerHeight,
+                centerx = (x/2 - 357) + "px",
+                centery = (y/2 - 83.25) + "px",
+                center = centery + " 0 0 " + centerx,
+                undocenter = "0 0 0 " + centerx;
+                //negcenter = "-" + centery + " 0 0 0";
+            //$('#thisisdumb').css("margin", negcenter);
+            $('#back').css("height", y);
+            $('#back').css("width", x);
+            $('#dad').css("margin", center);
+            setTimeout(function(){$('#dad').animate({margin: undocenter}, 900)},4200);
+            setTimeout(function(){$('#back').animate({margin: "-5000px 0 0 0"}, 4000)},4400);
+        </script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/type.js"></script>
     </body>

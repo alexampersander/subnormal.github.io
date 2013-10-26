@@ -1,5 +1,5 @@
 * {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', serif;/* 166.5 83.25 714*/
 }
 ::selection {
     background-color: #48E698;
@@ -7,7 +7,7 @@
 ::-moz-selection {
     background-color: #48E698;
 }
-body div {
+#b {
 	position: relative;
 	background-color: #00B4FF;
 	display: block;
@@ -16,6 +16,23 @@ body div {
 	font-size: 3em;
 	font-weight: 700;
 }
-body div div p {
-	margin-top: 33px;
+
+#dad {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+#dad p {
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#back {
+	background-color: #00B4FF;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -10;
 }
