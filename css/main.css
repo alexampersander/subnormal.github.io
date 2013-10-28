@@ -1,38 +1,38 @@
 * {
-	font-family: 'Roboto Slab', serif;/* 166.5 83.25 714*/
+    font-family: 'Roboto Slab', serif;
 }
+
 ::selection {
     background-color: #48E698;
 }
+
 ::-moz-selection {
     background-color: #48E698;
 }
+
 #b {
-	position: relative;
-	background-color: #00B4FF;
-	display: block;
-	height: 200px;
-	color: white;
-	font-size: 3em;
-	font-weight: 700;
+    position: relative;
+    background-color: #00B4FF;
+    display: block;
+    height: 200px;
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
 }
 
 #dad {
-	font-size: 3em;
-	font-weight: 700;
-}
-
-#dad p {
+    font-size: 3em;
+    font-weight: 700;
 }
 
 body {
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 #back {
-	background-color: #00B4FF;
-	top: 0;
-	left: 0;
-	position: absolute;
-	z-index: -10;
+    background-color: #00B4FF;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -10;
 }
