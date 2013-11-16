@@ -1,0 +1,25 @@
+* {
+    font-family: Helvetica, Arial sans-serif;
+    text-align: center;
+}
+html body {
+    background-color: #858585;
+}
+p {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    width: 400px;
+    height: 150px;
+    line-height: 120%;
+}
+#butt {
+    margin-top: 35%;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 15%;
+}
